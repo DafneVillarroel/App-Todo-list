@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/DafneVillarroel/App-Todo-list.git/static/css/main.e1f618ae.css",
-    "main.js": "/DafneVillarroel/App-Todo-list.git/static/js/main.e8d7f6a4.js",
-    "index.html": "/DafneVillarroel/App-Todo-list.git/index.html",
-    "main.e1f618ae.css.map": "/DafneVillarroel/App-Todo-list.git/static/css/main.e1f618ae.css.map",
-    "main.e8d7f6a4.js.map": "/DafneVillarroel/App-Todo-list.git/static/js/main.e8d7f6a4.js.map"
+    "main.css": "./static/css/main.e1f618ae.css",
+    "main.js": "./static/js/main.e8d7f6a4.js",
+    "index.html": "./index.html",
+    "main.e1f618ae.css.map": "./static/css/main.e1f618ae.css.map",
+    "main.e8d7f6a4.js.map": "./static/js/main.e8d7f6a4.js.map"
   },
   "entrypoints": [
     "static/css/main.e1f618ae.css",
