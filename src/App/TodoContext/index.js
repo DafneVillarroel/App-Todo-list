@@ -32,11 +32,16 @@ function TodoProvider(props){
   }
   const addTodo = (text) => {
    const newTodos = [...todos];
-   newTodos.push({
-     completed:false,
-     text,
-   });
-   saveTodos(newTodos);
+   if(text.length >=1){
+    newTodos.push({
+      completed:false,
+      text,
+    });
+    saveTodos(newTodos);
+   } else{
+     alert("Escribe una tarea :)")
+   }
+  
   };
 
   const completeTodo = (text) => {

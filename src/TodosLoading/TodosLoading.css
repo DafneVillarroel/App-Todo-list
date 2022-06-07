@@ -1,6 +1,8 @@
 .LoadingTodo-container{
   max-width:90%;
   margin: 0 auto;
+  min-width: 120px;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;

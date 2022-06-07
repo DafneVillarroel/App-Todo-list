@@ -12,6 +12,7 @@ function TodoForm(){
 
    const onChange = (event)=>{
   setNewTodoValue(event.target.value)
+ 
    };
 
    const onCancel = ()=>{
@@ -20,7 +21,7 @@ function TodoForm(){
    const onSubmit = (event)=>{
     event.preventDefault();
     addTodo(newTodoValue);
-
+    setNewTodoValue('')
    };
 
   return(
@@ -30,6 +31,7 @@ function TodoForm(){
      value={newTodoValue}
      onChange={onChange}
      placeholder="Escribe una nueva tarea..."
+     autoFocus
      />
      <div>
        <button className="TodoForm-button-cancel"
